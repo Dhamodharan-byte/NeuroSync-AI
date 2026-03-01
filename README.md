@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+NeuroSync AI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+NeuroSync AI is a desktop application built to explore how user interaction patterns — such as typing rhythm and mouse movement — can reflect cognitive fatigue.
 
-## Available Scripts
+The idea behind this project is simple: when a person becomes mentally tired, their interaction behavior subtly changes. This system captures those patterns and applies a scoring logic to estimate fatigue levels in real time.
 
-In the project directory, you can run:
+This is a prototype built to experiment with behavioral biometrics and human-computer interaction concepts.
 
-### `npm start`
+What This Project Does
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Captures keyboard and mouse activity
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Extracts basic behavioral metrics
 
-### `npm test`
+Computes a fatigue score
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Displays real-time feedback through a desktop interface
 
-### `npm run build`
+This project is intended for performance awareness and experimentation — not medical diagnosis.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+React.js (Frontend UI)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Electron.js (Desktop application framework)
 
-### `npm run eject`
+JavaScript (Core logic)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Create React App (Project setup)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Project Structure (Simplified)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+User Input (Keyboard + Mouse)
+→ Event Listener
+→ Feature Extraction
+→ Fatigue Scoring Logic
+→ UI Display
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Installation & Running
 
-## Learn More
+Clone the repository:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+git clone https://github.com/Dhamodharan-byte/NeuroSync-AI.git
+cd NeuroSync-AI
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Install dependencies:
 
-### Code Splitting
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Start development mode:
 
-### Analyzing the Bundle Size
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Build production version:
 
-### Making a Progressive Web App
+npm run build
+Why I Built This
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+I built NeuroSync AI to explore:
 
-### Advanced Configuration
+Behavioral biometrics
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Real-time event processing
 
-### Deployment
+Desktop application architecture
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Translating theoretical fatigue detection ideas into a working prototype
 
-### `npm run build` fails to minify
+This project helped me understand how raw interaction data can be converted into measurable signals.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Future Improvements
+
+Personalized machine learning–based fatigue scoring
+
+Long-term behavioral trend analysis
+
+Multimodal inputs (webcam or wearable integration)
+
+Validation with real user datasets
+
+Author
+
+Dhamodharan
+B.E Computer Science and Engineering (AI)
+
+GitHub: https://github.com/Dhamodharan-byte
