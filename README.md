@@ -1,28 +1,30 @@
 NeuroSync AI
 
-NeuroSync AI is a desktop application built to explore how user interaction patterns — such as typing rhythm and mouse movement — can reflect cognitive fatigue.
+NeuroSync AI is a desktop application built to explore how typing patterns and mouse movement can reflect cognitive fatigue.
 
-The idea behind this project is simple: when a person becomes mentally tired, their interaction behavior subtly changes. This system captures those patterns and applies a scoring logic to estimate fatigue levels in real time.
+The idea is simple: when a person becomes mentally tired, their interaction behavior subtly changes. This project captures those patterns and applies a scoring logic to estimate fatigue levels in real time.
 
-This is a prototype built to experiment with behavioral biometrics and human-computer interaction concepts.
+This is a prototype created to experiment with behavioral biometrics and human-computer interaction concepts.
 
 What This Project Does
 
-Captures keyboard and mouse activity
+Captures keyboard activity
 
-Extracts basic behavioral metrics
+Tracks mouse movement
+
+Extracts behavioral metrics
 
 Computes a fatigue score
 
 Displays real-time feedback through a desktop interface
 
-This project is intended for performance awareness and experimentation — not medical diagnosis.
+This project is intended for experimentation and performance awareness — not medical diagnosis.
 
 Tech Stack
 
 React.js (Frontend UI)
 
-Electron.js (Desktop application framework)
+Electron.js (Desktop framework)
 
 JavaScript (Core logic)
 
@@ -37,22 +39,14 @@ User Input (Keyboard + Mouse)
 → UI Display
 
 Installation & Running
-
-Clone the repository:
-
+1. Clone the repository
 git clone https://github.com/Dhamodharan-byte/NeuroSync-AI.git
 cd NeuroSync-AI
-
-Install dependencies:
-
+2. Install dependencies
 npm install
-
-Start development mode:
-
+3. Start development mode
 npm start
-
-Build production version:
-
+4. Build production version
 npm run build
 Why I Built This
 
@@ -64,7 +58,7 @@ Real-time event processing
 
 Desktop application architecture
 
-Translating theoretical fatigue detection ideas into a working prototype
+Translating fatigue detection ideas into a working prototype
 
 This project helped me understand how raw interaction data can be converted into measurable signals.
 
