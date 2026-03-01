@@ -1,4 +1,4 @@
-NeuroSync AI
+# NeuroSync AI
 
 NeuroSync AI is a desktop application built to explore how typing patterns and mouse movement can reflect cognitive fatigue.
 
@@ -6,48 +6,63 @@ The idea is simple: when a person becomes mentally tired, their interaction beha
 
 This is a prototype created to experiment with behavioral biometrics and human-computer interaction concepts.
 
-What This Project Does
+---
 
-Captures keyboard activity
+## What This Project Does
 
-Tracks mouse movement
-
-Extracts behavioral metrics
-
-Computes a fatigue score
-
-Displays real-time feedback through a desktop interface
+- Captures keyboard activity  
+- Tracks mouse movement  
+- Extracts behavioral metrics  
+- Computes a fatigue score  
+- Displays real-time feedback through a desktop interface  
 
 This project is intended for experimentation and performance awareness — not medical diagnosis.
 
-Tech Stack
+---
 
-React.js (Frontend UI)
+## Tech Stack
 
-Electron.js (Desktop framework)
+- React.js (Frontend UI)  
+- Electron.js (Desktop framework)  
+- JavaScript (Core logic)  
+- Create React App (Project setup)  
 
-JavaScript (Core logic)
+---
 
-Create React App (Project setup)
+## Project Structure (Simplified)
 
-Project Structure (Simplified)
+User Input (Keyboard + Mouse)  
+→ Event Listener  
+→ Feature Extraction  
+→ Fatigue Scoring Logic  
+→ UI Display  
 
-User Input (Keyboard + Mouse)
-→ Event Listener
-→ Feature Extraction
-→ Fatigue Scoring Logic
-→ UI Display
+---
 
-Installation & Running
-1. Clone the repository
+## Installation & Running
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/Dhamodharan-byte/NeuroSync-AI.git
 cd NeuroSync-AI
-2. Install dependencies
+```
+
+###2. Install dependencies
+```bash
 npm install
-3. Start development mode
+```
+
+###3. Start development mode
+```bash
 npm start
-4. Build production version
+```
+
+###4. Build production version
+```bash
 npm run build
+```
+
 Why I Built This
 
 I built NeuroSync AI to explore:
