@@ -48,48 +48,46 @@ git clone https://github.com/Dhamodharan-byte/NeuroSync-AI.git
 cd NeuroSync-AI
 ```
 
-###2. Install dependencies
+### 2. Install dependencies
 ```bash
 npm install
 ```
 
-###3. Start development mode
+### 3. Start development mode
 ```bash
 npm start
 ```
 
-###4. Build production version
+### 4. Build production version
 ```bash
 npm run build
 ```
 
-Why I Built This
+## Why I Built This
 
 I built NeuroSync AI to explore:
 
-Behavioral biometrics
-
-Real-time event processing
-
-Desktop application architecture
-
-Translating fatigue detection ideas into a working prototype
+- Behavioral biometrics  
+- Real-time event processing  
+- Desktop application architecture  
+- Translating fatigue detection ideas into a working prototype  
 
 This project helped me understand how raw interaction data can be converted into measurable signals.
 
-Future Improvements
+---
 
-Personalized machine learning–based fatigue scoring
+## Future Improvements
 
-Long-term behavioral trend analysis
+- Personalized machine learning–based fatigue scoring  
+- Long-term behavioral trend analysis  
+- Multimodal inputs (webcam or wearable integration)  
+- Validation with real user datasets  
 
-Multimodal inputs (webcam or wearable integration)
+---
 
-Validation with real user datasets
+## Author
 
-Author
-
-Dhamodharan
-B.E Computer Science and Engineering (AI)
+Dhamodharan  
+B.E Computer Science and Engineering (AI)  
 
 GitHub: https://github.com/Dhamodharan-byte
